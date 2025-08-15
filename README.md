@@ -290,21 +290,4 @@ Contributions welcome! Areas of interest:
 - Hardware deployment scripts
 - Benchmarking studies
 
-### Development Setup
-
-```bash
-git clone https://github.com/[your-repo]/quantum-polynomial-regression
-cd quantum-polynomial-regression
-pip install -r requirements.txt
-```
-
-### Running Tests
-
-```bash
-python -m pytest tests/
-python benchmark.py  # Run performance benchmarks
-```
-
----
-
 *For questions or issues, please open a GitHub issue or contact the maintainers.*

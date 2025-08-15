@@ -131,7 +131,7 @@ Plot saved to: quantum_regression.png
 ### 1. Quantum vs Classical Comparison
 Comparison between quantum and classical polynomial regression performance:
 
-![Quantum vs Classical Regression](plots/quantum_vs_classical_comparison.png)
+![Quantum vs Classical Regression](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/classical_vs_quantum.png)
 
 **Key Findings:**
 - Quantum model achieves R² = 0.988 with MSE = 0.157
@@ -142,10 +142,10 @@ Comparison between quantum and classical polynomial regression performance:
 ### 2. Function Type Analysis
 Performance across different polynomial functions:
 
-![Function Analysis](plots/function_analysis.png)
+![Function Analysis](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/different_functions_comparison.png)
 
 **Results Summary:**
-- **Cubic Polynomial** (R² = 0.685): Successfully captures complex cubic relationships
+- **Cubic Polynomial** (R² = 0.985): Successfully captures complex cubic relationships
 - **Quartic Polynomial** (R² = 0.979): Excellent fit for 4th degree polynomials
 - **Sine Polynomial** (R² = 0.955): Good approximation of trigonometric functions
 - **Complex Polynomial** (R² = 0.982): Handles multi-modal functions effectively
@@ -154,7 +154,7 @@ Performance across different polynomial functions:
 ### 3. Circuit Depth Analysis
 Impact of variational layers on model performance:
 
-![Layer Analysis](plots/layer_analysis.png)
+![Layer Analysis](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/layer_comparison.png)
 
 **Observations:**
 - **2 Layers**: R² = 0.752, MSE = 1.555 (underfitting)
@@ -167,7 +167,7 @@ Impact of variational layers on model performance:
 ### 4. Noise Robustness Study
 Model performance under different noise conditions:
 
-![Noise Analysis](plots/noise_analysis.png)
+![Noise Analysis](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/noise_robustness.png)
 
 **Noise Tolerance:**
 - **σ = 0.1**: R² = 0.997 (excellent performance)
@@ -179,7 +179,7 @@ The quantum model demonstrates strong noise resilience, maintaining performance 
 
 ### 5. Performance Metrics Summary
 
-![Performance Summary](plots/performance_summary.png)
+![Performance Summary](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/performance_summary.png)
 
 **Key Insights:**
 - **Qubit Scaling**: Performance remains stable across 3-8 qubits
@@ -189,7 +189,7 @@ The quantum model demonstrates strong noise resilience, maintaining performance 
 ### 6. Qubit Scaling Analysis
 Performance across different numbers of qubits:
 
-![Qubit Analysis](plots/qubit_analysis.png)
+![Qubit Analysis](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/qubit_comparison.png)
 
 **Scaling Results:**
 - **3 Qubits**: R² = 0.977, MSE = 0.144 (minimal circuit)
@@ -200,7 +200,7 @@ Performance across different numbers of qubits:
 ### 7. Training Convergence
 Comparison of training curves for different configurations:
 
-![Training Curves](plots/training_curves.png)
+![Training Curves](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/training_curves.png)
 
 **Convergence Analysis:**
 - All configurations converge within 200 epochs

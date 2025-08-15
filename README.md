@@ -42,7 +42,14 @@ pip install numpy
 
 For GPU acceleration (optional):
 ```bash
-pip install pennylane-lightning[gpu]
+# For NVIDIA GPUs (requires CUDA and cuQuantum SDK)
+pip install pennylane-lightning-gpu
+
+# Note: lightning.gpu requires NVIDIA CUDA-capable GPUs (SM 7.0/Volta or newer)
+# For AMD GPUs, use lightning.kokkos backend instead
+# Apple Silicon Macs (M1/M2/M3/M4): No GPU acceleration currently supported
+# - PennyLane lightning simulators don't yet support Apple's Metal framework
+# - Use the standard lightning.qubit device on macOS
 ```
 
 ## Usage

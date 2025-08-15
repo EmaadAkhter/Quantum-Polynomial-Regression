@@ -1,4 +1,6 @@
 # Quantum Polynomial Regression
+![Quantum Regression](https://github.com/EmaadAkhter/Quantum-Polynomial-Regression/blob/main/plots/quantum_regression.png)
+
 
 A quantum machine learning implementation for polynomial regression using PennyLane and variational quantum circuits (VQCs).
 
